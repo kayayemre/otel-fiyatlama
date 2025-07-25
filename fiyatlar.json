@@ -1,0 +1,502 @@
+[
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-07-22",
+    "periyot_bitis": "2025-08-03",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2900,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-04",
+    "periyot_bitis": "2025-08-07",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3250,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-08",
+    "periyot_bitis": "2025-08-10",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2995,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-11",
+    "periyot_bitis": "2025-08-13",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3250,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-14",
+    "periyot_bitis": "2025-08-17",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2995,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-18",
+    "periyot_bitis": "2025-08-21",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3250,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-22",
+    "periyot_bitis": "2025-08-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2995,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-25",
+    "periyot_bitis": "2025-08-28",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3250,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-29",
+    "periyot_bitis": "2025-09-05",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2600,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-06",
+    "periyot_bitis": "2025-09-14",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2200,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-15",
+    "periyot_bitis": "2025-09-22",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1995,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-23",
+    "periyot_bitis": "2025-09-30",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1500,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-07-22",
+    "periyot_bitis": "2025-08-20",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2995,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-21",
+    "periyot_bitis": "2025-08-25",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2800,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-26",
+    "periyot_bitis": "2025-09-07",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2600,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-08",
+    "periyot_bitis": "2025-09-25",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2275,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-26",
+    "periyot_bitis": "2025-10-06",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 1875,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-10-07",
+    "periyot_bitis": "2025-10-20",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 1500,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-07-22",
+    "periyot_bitis": "2025-08-20",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2850,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-21",
+    "periyot_bitis": "2025-08-25",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2730,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-26",
+    "periyot_bitis": "2025-09-07",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2535,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-08",
+    "periyot_bitis": "2025-09-25",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2210,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-26",
+    "periyot_bitis": "2025-10-06",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1650,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-10-07",
+    "periyot_bitis": "2025-10-20",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1320,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Kara Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-07-16",
+    "periyot_bitis": "2025-07-19",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2750,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Kara Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-07-20",
+    "periyot_bitis": "2025-07-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3300,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Kara Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-07-25",
+    "periyot_bitis": "2025-08-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3500,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Kara Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-08-25",
+    "periyot_bitis": "2025-09-10",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Kara Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-09-11",
+    "periyot_bitis": "2025-09-30",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2500,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Kara Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-10-01",
+    "periyot_bitis": "2025-10-31",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1800,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Deniz Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-07-16",
+    "periyot_bitis": "2025-07-19",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Deniz Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-07-20",
+    "periyot_bitis": "2025-07-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3750,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Deniz Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-07-25",
+    "periyot_bitis": "2025-08-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3700,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Deniz Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-08-25",
+    "periyot_bitis": "2025-09-10",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3200,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Deniz Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-09-11",
+    "periyot_bitis": "2025-09-30",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2600,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Deniz Manzaralı Standart Oda",
+    "periyot_baslangic": "2025-10-01",
+    "periyot_bitis": "2025-10-31",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1900,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Ara Kapılı Aile Odası",
+    "periyot_baslangic": "2025-07-01",
+    "periyot_bitis": "2025-07-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3250,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Ara Kapılı Aile Odası",
+    "periyot_baslangic": "2025-07-25",
+    "periyot_bitis": "2025-08-24",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3500,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Ara Kapılı Aile Odası",
+    "periyot_baslangic": "2025-08-25",
+    "periyot_bitis": "2025-09-10",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 3000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Ara Kapılı Aile Odası",
+    "periyot_baslangic": "2025-09-11",
+    "periyot_bitis": "2025-09-30",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2500,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "oda_tipi": "Ara Kapılı Aile Odası",
+    "periyot_baslangic": "2025-10-01",
+    "periyot_bitis": "2025-10-31",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 1800,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 4,
+    "otel_adi": "Mesut Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-07-17",
+    "periyot_bitis": "2025-09-30",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2750,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 4,
+    "otel_adi": "Mesut Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-10-01",
+    "periyot_bitis": "2025-10-15",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 3000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 4,
+    "otel_adi": "Mesut Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-10-16",
+    "periyot_bitis": "2025-10-31",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2250,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 4,
+    "otel_adi": "Mesut Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-10-01",
+    "periyot_bitis": "2025-11-15",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 5,
+    "otel_adi": "Dream of Ölüdeniz Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-07-17",
+    "periyot_bitis": "2025-07-31",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 4000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 5,
+    "otel_adi": "Dream of Ölüdeniz Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-08-01",
+    "periyot_bitis": "2025-08-31",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 4000,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 5,
+    "otel_adi": "Dream of Ölüdeniz Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-01",
+    "periyot_bitis": "2025-09-30",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 3200,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 5,
+    "otel_adi": "Dream of Ölüdeniz Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-10-01",
+    "periyot_bitis": "2025-10-31",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2700,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 5,
+    "otel_adi": "Dream of Ölüdeniz Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-11-01",
+    "periyot_bitis": "2025-11-30",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 1840,
+    "para_birimi": "TL"
+  }
+]

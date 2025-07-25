@@ -1,0 +1,109 @@
+[
+  {
+    "otel_id": 1,
+    "otel_adi": "De Mare Family Hotel",
+    "lokasyon": "Alanya Antalya",
+    "telefon": "0242 000 00 01",
+    "whatsapp": "0555 111 11 11",
+    "web": "https://demarehotel.com",
+    "info1": "Denize Sıfır",
+    "info2": "Aile Otelit",
+    "info3": "Özel Plaj",
+    "info4": "Su Kaydıraklı",
+    "kampanya1": "2 Çocuk Ücretsiz",
+    "kampanya2": "Havale ve Tek Çekime Özel %10 Ekstra İndirim",
+    "resimler": [
+      "/images/demare1.jpg",
+      "/images/demare2.jpg",
+      "/images/demare3.jpg",
+      "/images/demare4.jpg",
+      "/images/demare5.jpg"
+    ]
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "lokasyon": "Alanya Antalya",
+    "telefon": "0242 000 00 02",
+    "whatsapp": "0555 222 22 22",
+    "web": "https://clubsvshotel.com",
+    "info1": "Denize sıfır",
+    "info2": "Herşey dahil açık büfe",
+    "info3": "Aquaparklı havuz",
+    "info4": "Günlük temizlik",
+    "kampanya1": "5 gece kal %10 indirim",
+    "kampanya2": "Ücretsiz transfer",
+    "resimler": [
+      "/images/svs1.jpg",
+      "/images/svs2.jpg",
+      "/images/svs3.jpg",
+      "/images/svs4.jpg",
+      "/images/svs5.jpg"
+    ]
+  },
+
+{
+    "otel_id": 3,
+    "otel_adi": "Grand Barhan Hotel",
+    "lokasyon": "Alanya Antalya",
+    "telefon": "0242 000 00 02",
+    "whatsapp": "0555 222 22 22",
+    "web": "https://clubsvshotel.com",
+    "info1": "Denize sıfır",
+    "info2": "Herşey dahil açık büfe",
+    "info3": "Aquaparklı havuz",
+    "info4": "Günlük temizlik",
+    "kampanya1": "5 gece kal %10 indirim",
+    "kampanya2": "Ücretsiz transfer",
+    "resimler": [
+      "/images/svs1.jpg",
+      "/images/svs2.jpg",
+      "/images/svs3.jpg",
+      "/images/svs4.jpg",
+      "/images/svs5.jpg"
+    ]
+  },
+{
+    "otel_id": 4,
+    "otel_adi": "Mesut Hotel",
+    "lokasyon": "Alanya Antalya",
+    "telefon": "0242 000 00 02",
+    "whatsapp": "0555 222 22 22",
+    "web": "https://clubsvshotel.com",
+    "info1": "Denize sıfır",
+    "info2": "Herşey dahil açık büfe",
+    "info3": "Aquaparklı havuz",
+    "info4": "Günlük temizlik",
+    "kampanya1": "5 gece kal %10 indirim",
+    "kampanya2": "Ücretsiz transfer",
+    "resimler": [
+      "/images/svs1.jpg",
+      "/images/svs2.jpg",
+      "/images/svs3.jpg",
+      "/images/svs4.jpg",
+      "/images/svs5.jpg"
+    ]
+  },
+
+  {
+    "otel_id": 5,
+    "otel_adi": "Dream of Ölüdeniz Hotel",
+    "lokasyon": "Ölüdeniz Fethiye",
+    "telefon": "0242 000 00 03",
+    "whatsapp": "0555 333 33 33",
+    "web": "https://grandbarhan.com",
+    "info1": "5 yıldızlı otel",
+    "info2": "Spa ve sauna",
+    "info3": "Her odada minibar",
+    "info4": "Çocuk kulübü",
+    "kampanya1": "Erken rezervasyona özel indirim",
+    "kampanya2": "3 gece konaklamaya 1 gece hediye",
+    "resimler": [
+      "/images/barhan1.jpg",
+      "/images/barhan2.jpg",
+      "/images/barhan3.jpg",
+      "/images/barhan4.jpg",
+      "/images/barhan5.jpg"
+    ]
+  }
+]
