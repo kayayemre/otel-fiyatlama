@@ -64,8 +64,8 @@ function useCountdown(startTimeKey: string, totalSeconds = 3600) {
   return `${min}:${sec}`;
 }
 export default function Home() {
-  const [checkin, setCheckin] = useState("");
-  const [checkout, setCheckout] = useState("");
+  const [checkin, setCheckin] = useState<string>("");
+  const [checkout, setCheckout] = useState<string>("");
   const [adults, setAdults] = useState(2);
   const [children, setChildren] = useState(0);
   const [childAges, setChildAges] = useState<number[]>([]);
