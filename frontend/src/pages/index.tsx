@@ -45,7 +45,8 @@ function useCountdown(startTimeKey: string, totalSeconds = 3600) {
 
   useEffect(() => {
     const stored = localStorage.getItem(startTimeKey);
-    let startTime = stored ? parseInt(stored) : Date.now();
+    const startTime = stored ? parseInt(stored) : Date.now();
+
     if (!stored) localStorage.setItem(startTimeKey, startTime.toString());
 
     const interval = setInterval(() => {
