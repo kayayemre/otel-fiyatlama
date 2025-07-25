@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
