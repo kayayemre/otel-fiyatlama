@@ -1,11 +1,31 @@
-// src/components/OtelCard.tsx
-
 import { FC, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import Popup from "./Popup";
+
+// 🔧 Yardımcı Fonksiyonlar
+function formatTarih(dateStr: string) {
+  const days = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
+  const months = [
+    "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
+    "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"
+  ];
+  const date = new Date(dateStr);
+  return `${date.getDate()} ${months[date.getMonth()]} ${days[date.getDay()]}`;
+}
+
+function calculateDuration(start: string, end: string) {
+  const d1 = new Date(start);
+  const d2 = new Date(end);
+  const diffMs = d2.getTime() - d1.getTime();
+  const nights = diffMs / (1000 * 60 * 60 * 24);
+  return {
+    nights,
+    days: nights + 1,
+  };
+}
 
 type OdaKonsept = {
   odaTipi: string;
@@ -26,6 +46,8 @@ type Props = {
   whatsapp?: string;
   geceGun?: string;
   tarih?: string;
+  checkin: string;
+  checkout: string;
 };
 
 const OtelCard: FC<Props> = ({
@@ -41,6 +63,8 @@ const OtelCard: FC<Props> = ({
   whatsapp,
   geceGun,
   tarih,
+  checkin,
+  checkout,
 }) => {
   const [popupVisible, setPopupVisible] = useState(false);
   const [selectedOda, setSelectedOda] = useState<OdaKonsept | null>(null);
@@ -104,9 +128,12 @@ const OtelCard: FC<Props> = ({
           </div>
         )}
 
+        {/* 👨‍👩‍👧‍👦 Misafir Özeti */}
         {misafirOzeti && (
-          <div className="mt-3 text-gray-700 font-medium text-sm">
-            👨‍👩‍👧‍👦 {misafirOzeti}
+          <div className="mt-3 text-gray-700 font-medium text-sm space-y-1 leading-snug">
+            <div>📅 {formatTarih(checkin)} - {formatTarih(checkout)}</div>
+            <div>🌙 {calculateDuration(checkin, checkout).nights} Gece {calculateDuration(checkin, checkout).days} Gün</div>
+            <div>👨‍👩‍👧‍👦 {misafirOzeti}</div>
           </div>
         )}
 
