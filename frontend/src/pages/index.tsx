@@ -272,13 +272,18 @@ export default function Home() {
         key={otelAdi}
         otelAdi={otelAdi}
         lokasyon={lokasyon}
-        infos={[
-          otelBilgi?.info1,
-          otelBilgi?.info2,
-          otelBilgi?.info3,
-          otelBilgi?.info4,
-        ]}
-        kampanyalar={[otelBilgi?.kampanya1, otelBilgi?.kampanya2]}
+        infos={([
+  otelBilgi?.info1,
+  otelBilgi?.info2,
+  otelBilgi?.info3,
+  otelBilgi?.info4,
+] as string[]).filter(Boolean)}
+
+kampanyalar={([
+  otelBilgi?.kampanya1,
+  otelBilgi?.kampanya2,
+] as string[]).filter(Boolean)}
+
         misafirOzeti={misafirOzeti}
         odaKonseptler={odaTipleri}
         resimler={resimler}
