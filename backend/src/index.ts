@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import dayjs from 'dayjs';
 import 'dayjs/locale/tr';
+import { findBestRoomDistribution } from './oda_dagilimi_hesaplama';
 
 dayjs.locale('tr');
 
@@ -112,49 +113,6 @@ const findCarpan = (
   });
 };
 
-const generateRoomCombinations = (yetiskin: number, cocuk: number, yaslar: number[]) => {
-  const combinations: {
-    adults: number;
-    children: number;
-    childAges: number[];
-  }[][] = [];
-
-  combinations.push([{ adults: yetiskin, children: cocuk, childAges: yaslar }]);
-
-  if (yetiskin >= 2) {
-    for (let a1 = 1; a1 < yetiskin; a1++) {
-      const a2 = yetiskin - a1;
-      for (let c1 = 0; c1 <= cocuk; c1++) {
-        const c2 = cocuk - c1;
-        combinations.push([
-          { adults: a1, children: c1, childAges: yaslar.slice(0, c1) },
-          { adults: a2, children: c2, childAges: yaslar.slice(c1) },
-        ]);
-      }
-    }
-  }
-
-  if (yetiskin >= 3) {
-    for (let a1 = 1; a1 <= yetiskin - 2; a1++) {
-      for (let a2 = 1; a2 <= yetiskin - a1 - 1; a2++) {
-        const a3 = yetiskin - a1 - a2;
-        for (let c1 = 0; c1 <= cocuk; c1++) {
-          for (let c2 = 0; c2 <= cocuk - c1; c2++) {
-            const c3 = cocuk - c1 - c2;
-            combinations.push([
-              { adults: a1, children: c1, childAges: yaslar.slice(0, c1) },
-              { adults: a2, children: c2, childAges: yaslar.slice(c1, c1 + c2) },
-              { adults: a3, children: c3, childAges: yaslar.slice(c1 + c2) },
-            ]);
-          }
-        }
-      }
-    }
-  }
-
-  return combinations;
-};
-
 app.post('/api/fiyat', (req: Request, res: Response) => {
   const { checkin, checkout, adults, children, childAges, hotel_id } = req.body;
 
@@ -205,25 +163,30 @@ app.post('/api/fiyat', (req: Request, res: Response) => {
 
       const { finalAdults, finalChildren, finalChildAges } = normalizeGuests(otel_id, adults, children, childAges);
       let odaSayisi = 1;
+      let toplamCarpan = 0;
 
-      const singleRoomCarpan = findCarpan(otel_id, s.oda_tipi, finalAdults, finalChildren, finalChildAges);
-      let toplamCarpan = singleRoomCarpan?.carpan ?? null;
+      const singleRoom = findCarpan(otel_id, s.oda_tipi, finalAdults, finalChildren, finalChildAges);
 
-      if (!toplamCarpan) {
-        const allCombos = generateRoomCombinations(finalAdults, finalChildren, finalChildAges);
-        const enIyiCombo = allCombos.find((combo) =>
-          combo.every((room) => findCarpan(otel_id, s.oda_tipi, room.adults, room.children, room.childAges))
+      if (singleRoom) {
+        toplamCarpan = singleRoom.carpan;
+      } else {
+        const best = findBestRoomDistribution(
+          s.otel_adi,
+          s.oda_tipi,
+          {
+            adults: finalAdults,
+            children: finalChildren,
+            childAges: finalChildAges,
+          },
+          carpanlar
         );
-        if (enIyiCombo) {
-          odaSayisi = enIyiCombo.length;
-          toplamCarpan = enIyiCombo.reduce((acc, room) => {
-            const carpan = findCarpan(otel_id, s.oda_tipi, room.adults, room.children, room.childAges);
-            return acc + (carpan?.carpan ?? 0);
-          }, 0);
+        if (best) {
+          toplamCarpan = best.totalMultiplier;
+          odaSayisi = best.rooms.length;
+        } else {
+          continue;
         }
       }
-
-      if (!toplamCarpan) continue;
 
       let toplam = 0;
       let gecerli = true;
@@ -233,14 +196,8 @@ app.post('/api/fiyat', (req: Request, res: Response) => {
           (f) =>
             f.oda_tipi === s.oda_tipi &&
             f.konsept === s.konsept &&
-            (
-              dayjs(tarih).isSame(f.periyot_baslangic) ||
-              dayjs(tarih).isAfter(f.periyot_baslangic)
-            ) &&
-            (
-              dayjs(tarih).isSame(f.periyot_bitis) ||
-              dayjs(tarih).isBefore(f.periyot_bitis)
-            )
+            (dayjs(tarih).isSame(f.periyot_baslangic) || dayjs(tarih).isAfter(f.periyot_baslangic)) &&
+            (dayjs(tarih).isSame(f.periyot_bitis) || dayjs(tarih).isBefore(f.periyot_bitis))
         );
         if (!f) {
           gecerli = false;
