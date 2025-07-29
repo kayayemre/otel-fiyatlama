@@ -32,7 +32,7 @@ export function getMultiplier(
         c.otel_adi === otelAdi &&
         c.oda_tipi === odaTipi &&
         c.yetiskin_sayisi === adults &&
-        c.cocuk_sayisi === children
+        Number(c.cocuk_sayisi ?? 0) === children
       ) {
         const yaslar = [
           c.birinci_cocuk_yas_araligi,
@@ -74,6 +74,9 @@ export function generateCombinations(
 
     for (let a = 1; a <= remaining.adults; a++) {
       for (let c = 0; c <= remaining.children; c++) {
+        const kisiSayisi = a + c;
+        if (kisiSayisi === 1) continue;
+
         const groupAges = remaining.childAges.slice(0, c);
         const newGroup = {
           adults: a,
@@ -120,7 +123,7 @@ export function findBestRoomDistribution(
         room.children,
         room.childAges
       );
-      if (!multiplier) {
+      if (multiplier === null) {
         valid = false;
         break;
       }
