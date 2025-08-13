@@ -264,19 +264,19 @@
     "otel_adi": "Grand Barhan Hotel",
     "oda_tipi": "Kara Manzaralı Standart Oda",
     "periyot_baslangic": "2025-07-25",
-    "periyot_bitis": "2025-08-24",
+    "periyot_bitis": "2025-08-21",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 3500,
+    "fiyat": 2995,
     "para_birimi": "TL"
   },
   {
     "otel_id": 3,
     "otel_adi": "Grand Barhan Hotel",
     "oda_tipi": "Kara Manzaralı Standart Oda",
-    "periyot_baslangic": "2025-08-25",
+    "periyot_baslangic": "2025-08-22",
     "periyot_bitis": "2025-09-10",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 3000,
+    "fiyat": 2250,
     "para_birimi": "TL"
   },
   {
@@ -324,19 +324,19 @@
     "otel_adi": "Grand Barhan Hotel",
     "oda_tipi": "Deniz Manzaralı Standart Oda",
     "periyot_baslangic": "2025-07-25",
-    "periyot_bitis": "2025-08-24",
+    "periyot_bitis": "2025-08-21",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 3700,
+    "fiyat": 3200,
     "para_birimi": "TL"
   },
   {
     "otel_id": 3,
     "otel_adi": "Grand Barhan Hotel",
     "oda_tipi": "Deniz Manzaralı Standart Oda",
-    "periyot_baslangic": "2025-08-25",
+    "periyot_baslangic": "2025-08-22",
     "periyot_bitis": "2025-09-10",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 3200,
+    "fiyat": 2450,
     "para_birimi": "TL"
   },
   {
