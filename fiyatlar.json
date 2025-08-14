@@ -123,10 +123,10 @@
     "otel_id": 2,
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
-    "periyot_baslangic": "2025-07-22",
+    "periyot_baslangic": "2025-08-15",
     "periyot_bitis": "2025-08-20",
     "konsept": "Alkollü Herşey Dahil",
-    "fiyat": 2995,
+    "fiyat": 3520,
     "para_birimi": "TL"
   },
   {
@@ -134,16 +134,16 @@
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
     "periyot_baslangic": "2025-08-21",
-    "periyot_bitis": "2025-08-25",
+    "periyot_bitis": "2025-08-26",
     "konsept": "Alkollü Herşey Dahil",
-    "fiyat": 2800,
+    "fiyat": 3200,
     "para_birimi": "TL"
   },
   {
     "otel_id": 2,
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
-    "periyot_baslangic": "2025-08-26",
+    "periyot_baslangic": "2025-08-27",
     "periyot_bitis": "2025-09-07",
     "konsept": "Alkollü Herşey Dahil",
     "fiyat": 2600,
@@ -154,6 +154,16 @@
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
     "periyot_baslangic": "2025-09-08",
+    "periyot_bitis": "2025-09-15",
+    "konsept": "Alkollü Herşey Dahil",
+    "fiyat": 2450,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-16",
     "periyot_bitis": "2025-09-25",
     "konsept": "Alkollü Herşey Dahil",
     "fiyat": 2275,
@@ -166,27 +176,27 @@
     "periyot_baslangic": "2025-09-26",
     "periyot_bitis": "2025-10-06",
     "konsept": "Alkollü Herşey Dahil",
-    "fiyat": 1875,
+    "fiyat": 1920,
     "para_birimi": "TL"
   },
-  {
+{
     "otel_id": 2,
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
     "periyot_baslangic": "2025-10-07",
     "periyot_bitis": "2025-10-20",
     "konsept": "Alkollü Herşey Dahil",
-    "fiyat": 1500,
+    "fiyat": 1440,
     "para_birimi": "TL"
   },
   {
     "otel_id": 2,
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
-    "periyot_baslangic": "2025-07-22",
+    "periyot_baslangic": "2025-08-15",
     "periyot_bitis": "2025-08-20",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 2850,
+    "fiyat": 3360,
     "para_birimi": "TL"
   },
   {
@@ -194,16 +204,16 @@
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
     "periyot_baslangic": "2025-08-21",
-    "periyot_bitis": "2025-08-25",
+    "periyot_bitis": "2025-08-26",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 2730,
+    "fiyat": 3120,
     "para_birimi": "TL"
   },
   {
     "otel_id": 2,
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
-    "periyot_baslangic": "2025-08-26",
+    "periyot_baslangic": "2025-08-27",
     "periyot_bitis": "2025-09-07",
     "konsept": "Alkolsüz Herşey Dahil",
     "fiyat": 2535,
@@ -214,6 +224,16 @@
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
     "periyot_baslangic": "2025-09-08",
+    "periyot_bitis": "2025-09-15",
+    "konsept": "Alkolsüz Herşey Dahil",
+    "fiyat": 2380,
+    "para_birimi": "TL"
+  },
+  {
+    "otel_id": 2,
+    "otel_adi": "Club SVS Hotel",
+    "oda_tipi": "Standart Oda",
+    "periyot_baslangic": "2025-09-16",
     "periyot_bitis": "2025-09-25",
     "konsept": "Alkolsüz Herşey Dahil",
     "fiyat": 2210,
@@ -226,17 +246,17 @@
     "periyot_baslangic": "2025-09-26",
     "periyot_bitis": "2025-10-06",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 1650,
+    "fiyat": 1800,
     "para_birimi": "TL"
   },
-  {
+{
     "otel_id": 2,
     "otel_adi": "Club SVS Hotel",
     "oda_tipi": "Standart Oda",
     "periyot_baslangic": "2025-10-07",
     "periyot_bitis": "2025-10-20",
     "konsept": "Alkolsüz Herşey Dahil",
-    "fiyat": 1320,
+    "fiyat": 1350,
     "para_birimi": "TL"
   },
   {
